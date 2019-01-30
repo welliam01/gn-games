@@ -469,8 +469,8 @@ client.on("message", async message => {
 
 
 
-const devs = [''];
-const adminprefix = "";
+const devs = ['440081527909515265','474200581163057153'];
+const adminprefix = "L";
 client.on('message', message => {
   if (!message.content.startsWith(adminprefix)) return;
   var args = message.content.split(' ').slice(1);
